@@ -1,0 +1,39 @@
+# ==== Esclusioni per push ridotto su GitHub ====
+/LayoutTests/
+/PerformanceTests/
+/Websites/
+/WebDriverTests/
+
+# ==== Artefatti di build / output ====
+/build/
+/WebKitBuild/
+/WebKitBuild-*/
+/out/
+DerivedData/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.pyc
+__pycache__/
+
+# ==== File di sistema / editor ====
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# ==== Log e temporanei ====
+*.log
+CMakeCache.txt
+CMakeFiles/
